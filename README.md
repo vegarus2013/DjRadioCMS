@@ -3,12 +3,7 @@
 
 
 ## Основные стеки
-![PYTHON](https://img.shields.io/badge/PYTHON-3.12.1-%233776AB?style=flat-square&logo=python&logoColor=white)
-![DJANGO](https://img.shields.io/badge/DJANGO-5.0.1-%23092E20?style=flat-square&logo=django&logoColor=white)
-![DJANGO](https://img.shields.io/badge/MariaDB-11.1-%23003545?style=flat-square&logo=mariadb&logoColor=white)
-![DJANGO](https://img.shields.io/badge/DODCKER-5.0.1-%232496ED?style=flat-square&logo=docker&logoColor=white)
-![DJANGO](https://img.shields.io/badge/NGINX-5.0.1-%23009639?style=flat-square&logo=nginx&logoColor=white)
-![DJANGO](https://img.shields.io/badge/GUNICORN-21.2.0-%23499848?style=flat-square&logo=gunicorn&logoColor=white)
+![PYTHON](https://img.shields.io/badge/PYTHON-3.12.1-%233776AB?style=flat-square&logo=python&logoColor=white) ![DJANGO](https://img.shields.io/badge/DJANGO-5.0.1-%23092E20?style=flat-square&logo=django&logoColor=white) ![DJANGO](https://img.shields.io/badge/MariaDB-11.1-%23003545?style=flat-square&logo=mariadb&logoColor=white) ![DOCKER](https://img.shields.io/badge/-DOCKER-%233776AB?style=flat-square&logo=docker&logoColor=white)![DOCKER-COMPOSE](https://img.shields.io/badge/DOCKER_COMPOSE-3.8-%233776AB?style=flat-square&logo=docker&logoColor=white) ![NGINX](https://img.shields.io/badge/NGINX-5.0.1-%23009639?style=flat-square&logo=nginx&logoColor=white) ![GUNICORN](https://img.shields.io/badge/GUNICORN-21.2.0-%23499848?style=flat-square&logo=gunicorn&logoColor=white)
 ---
 
 
