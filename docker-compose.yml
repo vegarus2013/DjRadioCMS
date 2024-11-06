@@ -1,0 +1,54 @@
+services:
+  db:
+    container_name: mariadb
+    image: mariadb:11.1
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+    env_file:
+      ./web/.env
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./configs/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  web:
+    container_name: djradiocms
+    image: djradiocms:dev
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    volumes:
+      - ./web:/app
+      - staticfiles_data:/app/staticfiles
+      - media_data:/app/media
+    depends_on:
+      - db
+
+  nginx:
+    container_name: nginx
+    image: nginx:1.27.1
+    volumes:
+      - ./configs/nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./configs/nginx/djradiocms.conf:/etc/nginx/conf.d/djradiocms.conf
+      - staticfiles_data:/app/staticfiles
+      - media_data:/app/media
+    ports:
+      - "80:80"
+    depends_on:
+      - web
+
+  icecast:
+    container_name: icecast2
+    image: arch-icecast:dev
+    build:
+      context: ./icecast
+      dockerfile: Dockerfile
+    ports:
+      - "10253:10253"
+      - "10453:10453"
+
+volumes:
+  db_data:
+  staticfiles_data:
+  media_data:
