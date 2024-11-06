@@ -1,9 +1,9 @@
 ![GitHub License](https://img.shields.io/github/license/vegarus2013/DjRadioCMS?style=flat-square&logo=github&color=%23004080) ![Status Project](https://img.shields.io/badge/STATUS%20PROJECT-DEV-%23ff2b2b?style=flat-square&logo=devdotto)
-![Status Project](https://img.shields.io/badge/Version-1.1.11.4-%235D87BF?style=flat-square&logo=v)
+![Status Project](https://img.shields.io/badge/Version-1.1.11.6-%235D87BF?style=flat-square&logo=v)
 
 # DjRadioCMS
 
-**DjRadioCMS** — это инновационная система управления радиостанцией, разработанная для удобного и эффективного управления вещанием через веб-браузер. Она представляет собой уникальное решение для интернет-радио, которое значительно упрощает процесс вещания и управления контентом. [Полное описние...](https://github.com/vegarus2013/DjRadioCMS)
+**DjRadioCMS** — это инновационная система управления радиостанцией, разработанная для удобного и эффективного управления вещанием через веб-браузер. Она представляет собой уникальное решение для интернет-радио, которое значительно упрощает процесс вещания и управления контентом. [Полное описние...](https://github.com/vegarus2013/DjRadioCMS/blob/master/doc/readme_ru.md)
 ---
 
 ## Основные стеки
